@@ -1,0 +1,45 @@
+
+:root {
+    --main-bg-color: #2F2E41;
+    --secondary-color: #FF8222;
+
+  }
+  
+
+body {
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: Poppins,sans-serif;
+    max-width: 1440px;
+}
+.bgContainer{
+    z-index: -5;
+    max-width: 1440px;
+}
+.vector-bg{
+    z-index: -2;
+    position: relative;
+    
+}
+
+.level-1{
+    z-index: -1;
+    position: absolute;
+}
+.top-right-bg{
+    right: 0px;
+    
+}
+
+.mid-left-bg{
+    top: 95vh;
+    left:-10px;
+}
+.x-dots-2{
+  
+    top: 100vh
+}
+.bottom-right-bg{
+    right: 0px;
+    top: 220vh;
+}

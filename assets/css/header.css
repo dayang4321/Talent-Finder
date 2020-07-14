@@ -1,0 +1,26 @@
+.top-nav-collapse {
+    background-color: var(--main-bg-color);
+}
+
+.home{
+    padding-top: 150px;
+}
+
+.main-title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.main-title span {
+    color: var(--secondary-color);
+}
+
+.main-subtext{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.main-subtext span {
+    color:  var(--secondary-color);
+}
