@@ -1,23 +1,13 @@
-.coming-soon h1 {
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 70px
-}
-
-.coming-soon p{
-    font-size: 18px;
-    line-height: 50px;
-}
-
-#inlineFormInputGroup {
-    height: 60px;
-    font-size: 18px;
-    line-height: 27px;
-    background-color: transparent;
-}
-
-.coming-soon a{
-
+.app-text h1{
     font-weight: 600;
     font-size: 24px;
+    line-height: 50px;
+    margin: 0px;
 }
+
+.app-text p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0px;
+}
+
