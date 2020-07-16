@@ -11,3 +11,50 @@
     margin: 0px;
 }
 
+.cta{
+    color: #131023;
+}
+.btn-dark{
+    background-color: #131023!important;
+}
+
+.cta h1{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.cta hr{
+    border-top: 2px solid var(--secondary-color);
+    margin-top: 0px;
+    margin-bottom: 30px;
+    width: 13%;
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.cta p{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.footer-form input,
+.footer-form button{
+    height: 60px;
+  
+    font-size: 24px!important;
+    line-height: 36px!important;
+}
+
+.footer-form button{
+font-weight: 600!important;
+text-transform: capitalize;
+padding: 12px 40px!important;
+}
+
+.copyright{
+    font-weight: 300;
+font-size: 14px;
+line-height: 50px;
+}
