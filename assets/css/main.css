@@ -12,10 +12,10 @@
 }
 
 .cta{
-    color: #131023;
+    color: var(--main-dark-color);
 }
 .btn-dark{
-    background-color: #131023!important;
+    background-color: var(--main-dark-color)!important;
 }
 
 .cta h1{
@@ -39,18 +39,15 @@
     line-height: 50px;
 }
 
-.footer-form input,
-.footer-form button{
-    height: 60px;
-  
-    font-size: 24px!important;
-    line-height: 36px!important;
+
+.footer-form input{
+    color: var(--main-dark-color)!important;
+    border-color:  var(--main-dark-color)!important;
 }
 
 .footer-form button{
-font-weight: 600!important;
-text-transform: capitalize;
 padding: 12px 40px!important;
+border-radius: 5px ;
 }
 
 .copyright{

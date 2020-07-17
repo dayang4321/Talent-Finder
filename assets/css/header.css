@@ -1,10 +1,12 @@
+header {
+    width: 100vw
+}
+
 .top-nav-collapse {
     background-color: var(--main-bg-color);
 }
 
-.home{
-    padding-top: 150px;
-}
+
 
 .main-title{
     font-weight: 600;

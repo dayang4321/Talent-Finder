@@ -2,12 +2,16 @@
 :root {
     --main-bg-color: #2F2E41;
     --secondary-color: #FF8222;
-
+    --main-dark-color: #131023; 
   }
   
-
+html{
+    width: 100vw;
+}
 body {
     background-color: var(--main-bg-color);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     font-family: Poppins,sans-serif;
     max-width: 1440px;
@@ -15,6 +19,7 @@ body {
 .bgContainer{
     z-index: -5;
     max-width: 1440px;
+    width: 100%;
 }
 .vector-bg{
     z-index: -2;
@@ -28,7 +33,7 @@ body {
 }
 .top-right-bg{
     right: 0px;
-    
+    top: 0px;
 }
 
 .mid-left-bg{
@@ -42,4 +47,21 @@ body {
 .bottom-right-bg{
     right: 0px;
     top: 220vh;
+}
+
+.btn{
+font-weight: 600!important;
+text-transform: capitalize;
+border-radius: 0px 5px 5px 0px;
+}
+
+.form-control,
+.btn {
+    height: 60px;
+    font-size: 24px!important;
+    line-height: 36px!important;
+}
+
+form{
+   
 }

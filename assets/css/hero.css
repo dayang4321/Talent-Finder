@@ -21,3 +21,14 @@
     font-weight: 600;
     font-size: 24px;
 }
+
+.main-form input{
+    color: white!important;
+    border-color: white!important;
+}
+
+.main-form button{
+padding: 12px 30px!important;
+
+}
+
