@@ -1,13 +1,13 @@
 .app-text h1{
     font-weight: 600;
-    font-size: 24px;
-    line-height: 50px;
+    font-size: 1.33em;
+    line-height: 2.78em;
     margin: 0px;
 }
 
 .app-text p{
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1em;
+    line-height: 1.66em;
     margin: 0px;
 }
 
@@ -20,8 +20,8 @@
 
 .cta h1{
     font-weight: 600;
-    font-size: 36px;
-    line-height: 50px;
+    font-size: 2em;
+    line-height:  1.5em;
 }
 
 .cta hr{
@@ -35,8 +35,8 @@
 
 .cta p{
     font-weight: normal;
-    font-size: 24px;
-    line-height: 50px;
+    font-size: 1.33em;
+    line-height:  1.5em;
 }
 
 
@@ -46,7 +46,7 @@
 }
 
 .footer-form button{
-padding: 12px 40px!important;
+
 border-radius: 5px ;
 }
 
@@ -54,4 +54,21 @@ border-radius: 5px ;
     font-weight: 300;
 font-size: 14px;
 line-height: 50px;
+}
+
+
+
+/* Small Screens */
+@media (max-width: 576px) {
+
+    .footer-form input{
+        width: 100%!important;
+    }
+    .footer-form button{
+
+        width: 100%!important;
+        }
+   .app-info{
+       padding: 10px 0px;
+   }
 }

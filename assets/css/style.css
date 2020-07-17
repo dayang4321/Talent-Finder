@@ -7,6 +7,7 @@
   
 html{
     width: 100vw;
+    font-size: 18px;
 }
 body {
     background-color: var(--main-bg-color);
@@ -57,11 +58,56 @@ border-radius: 0px 5px 5px 0px;
 
 .form-control,
 .btn {
-    height: 60px;
-    font-size: 24px!important;
-    line-height: 36px!important;
+    height: 3.33em!important;
+    font-size: 1.33em!important;
+
 }
 
 form{
    
+}
+
+
+/* Small Screens */
+@media (max-width: 576px) {
+    html{
+   
+        font-size: 8px;
+    }
+   
+ }
+
+/* Medium Screens */
+@media (max-width:800px){
+ 
+    html{
+   
+        font-size: 13px;
+    }
+#brand{
+
+}
+
+.form-control,
+.btn {
+    height: 2.5em!important;
+    font-size: 1.2em!important;
+
+}
+}
+
+
+@media (max-width:1200px){
+
+
+.form-control,
+.btn {
+    height: 3.3em!important;
+    font-size: 1em!important;
+
+}
+    html{
+   
+        font-size: 15px;
+    }
 }

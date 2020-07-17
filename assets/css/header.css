@@ -2,16 +2,14 @@ header {
     width: 100vw
 }
 
-.top-nav-collapse {
-    background-color: var(--main-bg-color);
-}
-
-
 
 .main-title{
     font-weight: 600;
-    font-size: 40px;
-    line-height: 70px;
+    font-size: 2.22em;
+    line-height: 1.8em;
+}
+.home{
+    padding-top: 1em;
 }
 
 .main-title span {
@@ -19,10 +17,49 @@ header {
 }
 
 .main-subtext{
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 1.67em;
+    line-height: 1.5em;
 }
 
 .main-subtext span {
     color:  var(--secondary-color);
 }
+
+/* Medium Screens */
+@media (max-width:768px){
+ 
+#brand img{
+    width: 75%
+}
+.home{
+    padding-top: 1.5em;
+}
+.main-subtext{
+    font-size: 20px;
+}
+
+
+}
+/* Small Screens */
+@media (max-width: 576px) {
+    .home{
+        padding-top: 4em;
+    }
+    .main-subtext{
+        font-size: 16px;
+    }
+.app-text img{
+    height: 42px;
+}
+
+.app-text h1{
+    font-size: 18px!important;
+    line-height: 1.5em!important;
+}
+
+.app-text p{
+    font-size: 14px!important;
+    line-height: 1.5em!important;
+}
+
+ }
