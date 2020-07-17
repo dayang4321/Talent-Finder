@@ -16,7 +16,9 @@ $sql = "INSERT INTO email VALUES (null, '$email')";
 
 if($conn->query($sql)){
   $message = "You're All Set!";
-echo "<script type='text/javascript'>alert('$message');</script>";
+echo `<div class="alert alert-success" role="alert">
+This is a success alert—check it out!
+</div>` ;
 
 }
 else{
