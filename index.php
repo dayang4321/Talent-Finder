@@ -80,7 +80,7 @@
           <form id="form1" method="POST" name="form1" action="./assets/src/register.php">
             <div class="md-form my-0 input-group md-outline mb-3 main-form">
               <input id="email" type="email" required name="email" class="form-control mr-n1" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn m-0 px-xl-5 px-lg-4 px-3 py-0 py-lg-2 bg-white text-dark waves-effect" type="submit" id="notify-me">Alert Me</button>
+              <button class="btn m-0 px-xl-5 px-lg-4 px-3 py-0 py-lg-2 bg-white text-dark waves-effect" onsubmit="event.preventDefault()" type="submit" id="notify-me">Alert Me</button>
             </div>
           </form>
              <!--/ Main Form -->
