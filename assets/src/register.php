@@ -1,7 +1,7 @@
 <?php
 // database connection code
 // // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
-$conn = mysqli_connect('localhost', 'root', '','talent finder pre-registration');
+$conn = mysqli_connect('us-cdbr-east-02.cleardb.com/', 'b1e2853f50dcd5', '819f8031','T-F');
 
 
 // Check connection
