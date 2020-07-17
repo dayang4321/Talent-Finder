@@ -163,7 +163,7 @@
     
     <form name="form2" id="form2" action="./assets/src/register.php" method="POST">
       <div class="md-form mx-auto col-md-7 footer-form input-group md-outline mb-3">
-        <input id="email1" type="email" name="email1" class="form-control my-2 my-sm-0 mr-sm-3" placeholder="Email Address" aria-label="Email Address" aria-describedby="alert-me">
+        <input id="email1" type="email" name="email" class="form-control my-2 my-sm-0 mr-sm-3" placeholder="Email Address" aria-label="Email Address" aria-describedby="alert-me">
         <button class="btn m-0 btn-dark  px-xl-5 px-lg-4 px-3 py-0 py-lg-2 waves-effect" type="submit" id="alert-me">Alert Me</button>
       </div>
     </form>

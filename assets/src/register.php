@@ -1,7 +1,7 @@
 <?php
 // database connection code
 // // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
-$conn = mysqli_connect('us-cdbr-east-02.cleardb.com/', 'b1e2853f50dcd5', '819f8031','T-F');
+$conn = mysqli_connect('us-cdbr-east-02.cleardb.com', 'b1e2853f50dcd5', '819f8031','T-F');
 
 
 // Check connection
@@ -15,7 +15,9 @@ $email = filter_input(INPUT_POST, 'email');
 $sql = "INSERT INTO email VALUES (null, '$email')";
 
 if($conn->query($sql)){
-  echo "Email Updated";
+  $message = "Email Updated";
+echo "<script type='text/javascript'>alert('$message');</script>";
+
 }
 else{
   echo "Error: " .$sql ."<br>".$conn->error;
