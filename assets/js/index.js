@@ -26,7 +26,7 @@ $( document ).ready(function() {
                 
                 
                 $.ajax({
-                url : "../../../Talent-Finder/assets/src/register.php",
+                url : "../../assets/src/register.php",
                 type: "POST",
                 data : formData,
                 success: function(data, textStatus, jqXHR)
