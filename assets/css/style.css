@@ -16,6 +16,7 @@ body {
     color: white;
     font-family: Poppins,sans-serif;
     max-width: 1440px;
+    max-height: 2503px;
 }
 .bgContainer{
     z-index: -5;

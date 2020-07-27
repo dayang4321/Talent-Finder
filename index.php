@@ -77,13 +77,25 @@
           <p class="m-0 mt-n3 py-2 py-md-0">Be the first to be notified, send us your email</p>
 
               <!-- Main Form -->
-          <form id="form1" method="POST" name="form1" action="./assets/src/register.php">
+          <form id="form1" name="form1" class="alert-form needs-validation" novalidate>
             <div class="md-form my-0 input-group md-outline mb-3 main-form">
               <input id="email" type="email" required name="email" class="form-control mr-n1" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <button class="btn m-0 px-xl-5 px-lg-4 px-3 py-0 py-lg-2 bg-white text-dark waves-effect" onsubmit="event.preventDefault()" type="submit" id="notify-me">Alert Me</button>
+              <button class="btn alert-button  m-0 px-xl-5 px-lg-4 px-3 py-0 py-lg-2 bg-white text-dark waves-effect" onsubmit="event.preventDefault()" type="submit" id="notify-me">Alert Me</button>
+              <span class="invalid-feedback text-center text-sm-left">
+                Please enter a valid email address.
+              </span>
             </div>
+            <div id="status"></div>
           </form>
+          <div class="alert footer-alert alert-success mx-auto d-none alert-dismissible fade show" role="alert">
+        <strong>You're all set!</strong> You will receive an email shortly.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span class="float-right float-sm-none" aria-hidden="true">&times;</span>
+        </button>
+        </div>
              <!--/ Main Form -->
+            
+
 
         </div>
         <div class="col-0 px-0 col-md-auto"></div>
@@ -153,24 +165,36 @@
     </div>   
 
   </main>
-  <footer class="footer ">
-  <div class="cta bg-white py-2 py-lg-4 text-center">
+  <footer class="footer">
+  <div class="cta bg-white py-2 px-3 py-lg-4 text-center">
     <div>
       <h1 class="pt-lg-3 pt-2 wow bounce">SUBSCRIBE TO GET NOTIFIED</h1>
       <hr>
     </div>
     <p>Never miss a talent. Join 3000 recruiters on the waitlist who can't wait to start finding the very best of talents</p>
     
-    <form name="form2" id="form2" action="./assets/src/register.php" method="POST">
-      <div class="md-form mx-auto col-md-7 footer-form input-group md-outline mb-3">
-        <input id="email1" type="email" name="email" required class="form-control my-2 my-sm-0 mr-sm-3" placeholder="Email Address" aria-label="Email Address" aria-describedby="alert-me">
-        <button class="btn m-0 btn-dark  px-xl-5 px-lg-4 px-3 py-0 py-lg-2 waves-effect" type="submit" id="alert-me">Alert Me</button>
-      </div>
-    </form>
-      
 
+
+    <form name="form2" id="form2" class="alert-form needs-validation" novalidate>
+      <div class="md-form mx-auto col-md-7 footer-form input-group md-outline mb-3 px-0">
+        <input id="email1" type="email" name="email" required class="form-control my-2 my-sm-0 mr-sm-3" placeholder="Email Address" aria-label="Email Address" aria-describedby="alert-me" required aria-required="true">
+        
+        <button class="btn alert-button m-0 btn-dark px-xl-5 px-lg-4 px-3 py-0 py-lg-2 waves-effect" type="submit" id="alert-me">Alert Me</button>
+        <span class="invalid-feedback text-center text-sm-left">
+          Please enter a valid email address.
+        </span>
+        <div id="status"></div>
+      </div>
+      <div class="alert footer-alert alert-success mx-auto col-md-7 d-none alert-dismissible fade show" role="alert">
+        <strong>You're all set!</strong> You will receive an email shortly.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span class="float-right float-sm-none" aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    
+    </form>
   </div>
-  <p class="text-center my-3 copyright">© Copyright Cloud. All Rights Reserved.</p>
+  <p class="text-center my-3 copyright">&copy; Copyright Cloud. All Rights Reserved.</p>
   </footer>
   <!-- End your project here-->
 
@@ -183,11 +207,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="assets/js/mdb.min.js"></script>
   <!-- My scripts -->
-  <script type="text/javascript">
-  $( document ).ready(function() {
-  new WOW().init();
-});
-  </script>
+  <script type="text/javascript" src="assets/js/index.js"> </script>
 
 </body>
 </html>

@@ -14,12 +14,12 @@ $email = filter_input(INPUT_POST, 'email');
 // database insert SQL code
 $sql = "INSERT INTO email VALUES (null, '$email')";
 
-if($conn->query($sql)){
-  $message = "You're All Set!";
-echo `<div class="alert alert-success" role="alert">
-This is a success alert—check it out!
-</div>` ;
+$rs = mysqli_query($conn, $sql);
 
+if($conn->query($sql)){
+  $message = "Sucessful" ;
+  print json_encode(array('message' => 'Email successfully sent!', 'code' => 1));
+  exit();
 }
 else{
   echo "Error: " .$sql ."<br>".$conn->error;
