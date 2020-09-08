@@ -5,7 +5,7 @@ I had three days to complete this challenge for submission.
 This was a task on the HNG Internship 7.
 
 ## Figma UI Link
-https://www.figma.com/file/5tB0KS7bdDwTQNiUyXQLSb/%40UduakE-web-developer-portfolio---Evanto?node-id=33%3A352
+https://www.figma.com/file/633y6w9LX6ZA5xJjLSVO1H/Finder-App?node-id=0%3A1
 
 ## Live Deployment
-https://rebacca-wook-portfolio.netlify.app/
+http://talent-finder1.herokuapp.com/
